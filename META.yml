@@ -1,0 +1,27 @@
+---
+abstract: 'Simple incremental backup system'
+author:
+  - 'Jan Henning Thorsen <jhthorsen@cpan.org>'
+build_requires:
+  Test::More: 0.9
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.8, CPAN::Meta::Converter version 2.120351'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-sibs
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  perl: 5.010
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-sibs
+  homepage: https://metacpan.org/release/App-sibs
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/jhthorsen/app-sibs
+version: 0.10
