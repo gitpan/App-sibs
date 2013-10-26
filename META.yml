@@ -24,4 +24,4 @@ resources:
   homepage: https://metacpan.org/release/App-sibs
   license: http://dev.perl.org/licenses/
   repository: https://github.com/jhthorsen/app-sibs
-version: 0.10
+version: 0.11
