@@ -6,7 +6,7 @@
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921",
    "license" : [
-      "perl_5"
+      "artistic_2"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -22,7 +22,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0.9"
+            "Test::More" : "0.88"
          }
       },
       "configure" : {
@@ -32,7 +32,7 @@
       },
       "runtime" : {
          "requires" : {
-            "URI" : "1.5",
+            "URI" : "1.50",
             "perl" : "5.010"
          }
       }
@@ -40,15 +40,12 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-sibs"
+         "web" : "https://github.com/jhthorsen/app-sibs/issues"
       },
-      "homepage" : "https://metacpan.org/release/App-sibs",
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ],
+      "homepage" : "https://github.com/jhthorsen/app-sibs",
       "repository" : {
-         "url" : "https://github.com/jhthorsen/app-sibs"
+         "url" : "https://github.com/jhthorsen/app-sibs.git"
       }
    },
-   "version" : "0.15"
+   "version" : "0.16"
 }
